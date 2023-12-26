@@ -1,0 +1,18 @@
+*{
+    background-color:  olivedrab;
+    
+}
+
+
+#f{
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+    border-bottom: 1px solid rgb(227, 193, 40);
+    
+    
+}
+#audio{
+    align-items: center;
+    text-align: center;
+}
