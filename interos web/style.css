@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #0C1B4F;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+    
+    position: sticky;
+    top: 0;
+}
+
+
+.main-navbar{
+    display: flex;
+    list-style: none;
+   
+    align-items: center;
+    justify-content: center;
+}
+
+
+.main-navbar li{
+    margin-right: 20px;
+}
+
+.main-navbar a {
+    text-decoration: none;
+    color: #fff; 
+    
+}
+
+.main-navbar a:hover {
+    color: #ffcc00; 
+}
+
+.icon {
+    width: 50px;
+}
+
+.start {
+    display: flex;
+    
+    
+    color: #fff; 
+    text-align: center;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 300px;  
+    
+}
+.h3interos{
+    color: #fff;
+    margin-left: 10px;
+
+}
+.svg{
+    display: flex;
+    
+    margin-bottom: 10px;
+}
+.png, .svg{
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(100%) hue-rotate(0deg);
+}
+.siza{
+    width: 120px;
+    font-family: sans-serif;
+}
+.request{
+    padding: 15px;
+    width: 150px;
+    border-radius: 25px;
+    background-color: #0C1B4F;
+    color: #fff;
+    border: 2px solid white;
+    transition: 0.5s;
+    font-family: sans-serif;
+    
+}
+.request:hover{
+    background-color: #0057F3;
+}
+.start{
+    
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: first baseline;
+    
+    
+}
+.unst{
+    
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    
+}
+.globe{
+    display: flex;
+    justify-content: end;
+    
+    
+}
+.globe{
+    display: flex;
+    align-items:end;
+    justify-content:end ;
+    align-self: flex-end;
+    border: none;
+}
+.mainn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.unst1{
+    display: flex;
+    padding: 20px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.unst1 svg{
+    width: 20px;
+    margin-left: 10px;
+}

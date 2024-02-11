@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    font-family: 'Inter', sans-serif ;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(47, 88%, 63%);
+    
+    
+}
+section{
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 20px 20px 0px 0px
+}
+
+.but{
+    display: flex;
+    margin-right: 257px;
+    width: 80px;
+    height: 25px;
+   padding: 5px;
+    text-align: center;
+    justify-content: center;
+    background-color: hsl(47, 88%, 63%);
+    opacity: 90%;
+    color: black;
+    text-decoration-color: black;
+    border: none;
+    border-radius: 6px;
+}
+.firstpar{
+    display: flex;
+    margin-top: 25px;
+    margin-right: 170px;
+    margin-bottom: 25px;
+}
+.head1{
+    display: flex;
+    color: hsl(47, 88%, 63%);
+    margin-right: 50px;
+    margin-bottom: 25px;
+    border: none;
+    background-color: #fff
+
+}
+.par2{
+    display: flex;
+    margin-right: 30px;
+    opacity: 70%;
+    
+}
+
+
+.imageee{
+    display: flex;
+    border-radius: 25px;
+    
+}
+.div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 200px;
+    padding-top: 30px;
+    
+   
+}
+.image{
+    width: 50px;
+    padding-right: 10px;
+}

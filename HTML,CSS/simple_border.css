@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:moccasin;
+    
+    
+}
+main{
+    border: 1px solid black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center
+
+
+}
+.head{
+    text-align: center;
+    justify-content: center;
+    border-collapse: collapse;
+    
+}
+
+.name{
+    background-color: darkolivegreen;
+}
+.age{
+    background-color: burlywood;
+}
+.country{
+    background-color: bisque;
+}
+.gender{
+    background-color: cornflowerblue;
+}
+.name1{
+    background-color: cornsilk;
+}
+.age1{
+    background-color: cadetblue;
+}
+.country1{
+    background-color: darkturquoise;
+}
+.gender1{
+    background-color: aquamarine;
+}
+.head{
+    width: 60%;
+    height: 60vh;
+    
+}
+table{
+    overflow: hidden;
+    border-collapse: collapse;
+    height: 500px;
+    width: 50%;
+    border-radius: 10px;
+background-color: aqua;
+}
+

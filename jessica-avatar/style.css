@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@200;300;400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif ;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(0, 0%, 8%);
+}
+section{
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border-radius: 10px;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile img{
+    width: 85px;
+    border-radius: 50%;
+    margin: 10px;
+    margin-left: 60.5px;
+}
+.profile h1{
+    color: #ffffff;
+    margin: 5px;
+    padding: 5px;
+
+}
+.profile p{
+    color:hsl(75, 94%, 57%) ;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+}
+.profile .work{
+    color: #ffffff;
+    opacity: 90%;
+}
+
+.work{
+    margin: 10px;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 13px;
+    opacity: 90%;
+    margin-top: 30px;
+}
+.buttons{
+    width: 100%;
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    width:100%;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color:hsl(0, 0%, 20%);
+    color: #ffffff;
+    margin-bottom: 20px;
+    transition: 0.45s;
+    cursor: pointer;
+    
+
+}
+button:hover{
+    background-color:hsl(75, 94%, 57%) ;
+    color: #000;
+}

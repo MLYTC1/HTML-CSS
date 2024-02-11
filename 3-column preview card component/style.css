@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 18px;
+    background-color: whitesmoke;
+}
+.par1{
+    width: 250px;
+    color: hsla(0, 0%, 100%, 0.75);
+    opacity: 85%;
+    
+   
+}
+.par2{
+    width: 250px;
+    color: hsla(0, 0%, 100%, 0.75);
+    letter-spacing: 1px;
+    opacity: 85%;
+}
+.par3{
+    width: 250px;
+    color: hsla(0, 0%, 100%, 0.75);
+    opacity: 85%;
+}
+.sec1{
+    display: flex;
+    background-color: hsl(31, 77%, 52%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 600px;
+    border-radius: 10px;
+    
+}
+.sec2{
+    display: flex;
+    background-color: hsl(184, 100%, 22%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 600px;
+}
+.sec3{
+    display: flex;
+    background-color: hsl(179, 100%, 13%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 600px;
+    border-radius: 10px;
+    
+}
+main{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+svg{
+    display: flex;
+   margin-right:200px ;   
+}
+.head1{
+    color:whitesmoke ;
+    margin-right: 150px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+button{
+    color:hsl(31, 77%, 52%) ;
+    display: flex;
+    margin-top: 100px;
+    margin-right: 20px;
+    width: 188px;
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px
+    
+}
+.but2{
+    color: hsl(184, 100%, 22%);
+    margin-bottom: 20px;
+    border: none;
+    letter-spacing: 1px;
+}
+.but3{
+    color: hsl(179, 100%, 13%);
+    border: none;
+    letter-spacing: 1px;
+    
+}
+.but1{
+    border: none;
+    letter-spacing: 1px;
+}
