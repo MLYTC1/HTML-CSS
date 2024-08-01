@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    background-color: #003C92;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+
+}
+
+.nav h2 {
+    color: whitesmoke;
+}
+
+.nav-first {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-comfort {
+    display: flex;
+    gap: 30px;
+
+}
+
+.nav-comfort button {
+    padding: 7px;
+    width: 140px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #003C92;
+    color: azure;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+
+.small-option {
+    /* padding: 8px; */
+    width: 50px;
+    height: 50px;
+    border-radius: 12%;
+    border: none;
+    background-color: #003C92;
+    color: white;
+    cursor: pointer;
+}
+
+.small-option:hover {
+    background-color: hsl(215, 100%, 33%);
+    transition: 0.30s;
+}
+
+.nav-comfort button:hover {
+    background-color: hsl(215, 100%, 33%);
+}
+
+.big-option {
+    height: 35px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    color: blue;
+    font-weight: 800;
+
+}
+
+.big-option:hover {
+    background-color: goldenrod;
+    color: white;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.nav-options {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    /* padding-left: 40%; */
+}
+
+.nav-first {
+    gap: 30%;
+}
+
+.huge-option {
+    height: 50px;
+    width: 240px;
+    font-weight: 900;
+    background-color: #003C92;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.huge-option:hover {
+    background-color: hsl(215, 100%, 33%);
+    transition: 0.25s;
+}
+
+.nav-comfort {
+    padding-left: 2.5%;
+}
+
+.img-div img {
+    width: 800px;
+    height: 500px;
+}
+
+.img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-div button {
+    height: 500px;
+    width: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 2rem;
+    padding: 10px;
+    background-color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.img-div button:hover {
+    background-color: whitesmoke;
+    transition: 0.25s;
+}
+
+.hotel-dv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+.hotel-dv h2 {
+    font-size: 2rem;
+    padding: 10px;
+    letter-spacing: 1px;
+    /* margin-left: -70px; */
+}
+
+.title-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline-start: 50px;
+    width: auto;
+
+}
+
+.title-div button {
+    padding: 10px;
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 15px;
+    text-align: center;
+
+}
+
+.content-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.body-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.body-nav-small-button {
+    background-color: white;
+    height: 70px;
+    width: 156px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.body-nav-big-button {
+    background-color: white;
+    height: 70px;
+    width: 180px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    padding: 3px;
+}
+
+.body-nav-big-button:hover,
+.body-nav-small-button:hover {
+    background-color: hsl(0, 0%, 95%);
+    border-bottom: 2px solid #003C92;
+    /* transition: 0.5s; */
+
+}
+
+/* .comfort-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} */
+
+
+.small-option-text {
+    font-size: 1.2rem;
+}
+
+.heart-span img {
+    width: 40px;
+    height: 40px;
+}
+
+.heart-span img:hover {
+    background: url("https://img.icons8.com/ios-filled/40/FA5252/like--v1.png");
+}
+
+.navbar-h2 {
+    font-size: 2rem;
+}
+
+.comfort-div button {
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    text-align: start;
+
+
+}
+
+
+.comfort-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    height: 500px;
+    margin-top: 160px;
+}
+
+.comfort-div button {
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+}
+
+.material-symbols-outlined {
+    margin-right: 8px;
+
+    font-size: 18px;
+
+}
+.share-icon{
+    cursor: pointer;
+}
+.main-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+    
+}
+.reserve-button{
+    border: none;
+    color: aqua;
+    background-color: royalblue;
+    cursor: pointer;
+}
+.reserve-button:hover{
+    background-color: rgb(54, 183, 54);
+    transition: 0.25s;
+}
