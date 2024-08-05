@@ -1,0 +1,328 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.chat-container {
+    background-color: #ffffff;
+    width: 350px;
+    height: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.chat-box {
+    padding: 10px;
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
+.chat-message {
+    margin: 5px 0;
+}
+
+.user-message {
+    text-align: right;
+}
+
+.bot-message {
+    text-align: left;
+}
+
+.input-container {
+    display: flex;
+    border-top: 1px solid #ddd;
+}
+
+#user-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    font-size: 16px;
+}
+
+#send-btn {
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#send-btn:hover {
+    background-color: #0056b3;
+}
+
+.chat-message.user-message {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: auto;
+    max-width: 80%;
+}
+
+.chat-message.bot-message {
+    background-color: #f1f1f1;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: auto;
+    max-width: 80%;
+}
+
+.chat-message {
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+}
+
+.user-message {
+    background-color: #e0f7fa;
+}
+
+.bot-message {
+    background-color: #e8f5e9;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+
+
+}
+
+#calculator {
+
+    font-family: Arial, sans-serif;
+
+    border-radius: 15px;
+    max-width: 400px;
+    height: 675px;
+    overflow: hidden;
+    margin: 10px;
+    margin-top: 30px;
+    margin-top: 30px;
+
+
+}
+
+#display {
+    width: 900%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: black;
+
+    color: white;
+
+
+}
+
+#keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+
+}
+
+
+.interface {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 400px;
+    border-radius: 50px;
+
+}
+
+footer {
+    bottom: 0;
+    align-items: flex-end;
+    margin-top: 1000px;
+}
+
+.wifi,
+.battery,
+.connection {
+
+    width: 50px;
+    height: 30px;
+
+}
+
+.icons {
+    display: flex;
+    justify-content: right;
+
+    margin: 3px;
+    position: calc(-50%, -50%);
+    margin-top: -155px;
+    margin-bottom: 100px;
+}
+
+.silver-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(164, 151, 157);
+    width: 400px;
+    padding: 5px;
+    border-radius: 50px;
+
+
+
+}
+
+#end-phone {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 100px;
+    background-color: whitesmoke;
+    height: 5px;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+#clock {
+    width: 40px;
+
+}
+
+#clock-div {
+    margin-right: 190px;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    margin-top: 5px;
+
+}
+
+#clock {
+    width: 50px;
+    height: 20px;
+    font-size: 1rem;
+    border: none;
+    background-color: black;
+    color: white;
+
+    text-align: center;
+
+    border-radius: 50px;
+}
+
+.image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.image:hover {
+    border: 5px solid greenyellow;
+    transition: 0.25s;
+}
+
+#keys h2 {
+    color: red;
+}
+
+.message {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.display-div {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+
+
+}
+
+.inp {
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+    gap: 10px;
+}
+
+.display {
+    margin-bottom: 10px;
+    height: 200px;
+}
+
+.display input {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.chatbot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.chat-container {
+    padding: 10px;
+    height: 520px;
+    border-radius: 20px;
+}

@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    font-weight: 600;
+    font-size: 2rem;
+}
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    background-color: #003C92;
+    width: 100%;
+    height: 360px;
+    padding: 40px;
+
+}
+
+.nav h2 {
+    color: whitesmoke;
+}
+
+.nav-first {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-comfort {
+    display: flex;
+    gap: 30px;
+
+}
+
+.nav-comfort button {
+    padding: 7px;
+    width: 140px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #003C92;
+    color: azure;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+.small-option {
+    /* padding: 8px; */
+    width: 50px;
+    height: 50px;
+    border-radius: 12%;
+    border: none;
+    background-color: #003C92;
+    color: white;
+    cursor: pointer;
+}
+
+.small-option:hover {
+    background-color: hsl(215, 100%, 33%);
+    transition: 0.30s;
+}
+
+.nav-comfort button:hover {
+    background-color: hsl(215, 100%, 33%);
+}
+.big-option {
+    height: 35px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    color: blue;
+    font-weight: 800;
+
+}
+
+.big-option:hover {
+    background-color: goldenrod;
+    color: white;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.nav-options {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    /* padding-left: 40%; */
+}
+
+.nav-first {
+    gap: 30%;
+}
+
+.huge-option {
+    height: 50px;
+    width: 240px;
+    font-weight: 900;
+    background-color: #003C92;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.huge-option:hover {
+    background-color: hsl(215, 100%, 33%);
+    transition: 0.25s;
+}
+
+.nav-comfort {
+    padding-left: 2.5%;
+}
+
+.img-div img {
+    width: 800px;
+    height: 500px;
+}
+
+.img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-div button {
+    height: 500px;
+    width: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 2rem;
+    padding: 10px;
+    background-color: white;
+    cursor: pointer;
+    text-align: center;
+}
+.nav-info h1{
+    font-size: 3rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.nav-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: safe;
+    margin-left: 35px;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 80px;
+    margin-bottom: 30px;
+
+}
+.nav-info h2 {
+    font-size: 1.5rem;   
+    margin-left: 3px; 
+    /* letter-spacing: 1px; */
+    font-weight: 100;
+}
+.logos-div img {
+    width: 104px;
+    height: 52px;
+}
+/* .logos-div{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+     align-items: center; 
+
+} */
+.logos-div-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+    margin-left: -70px;
+}
+.logos-div h2{
+    display: flex;
+ 
+}
+.i{
+    display: flex;
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 145px;
+    margin-top: 100px;
+}
+.services-logo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: -50px;
+    padding: 140px;
+
+    
+}
+.services-img{
+    width: 80px;
+    height: 80px;
+}
+.services-logo div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.services-logo div span{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.services-logo div span h5{
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.services-logo div span p {
+    font-family: sans-serif;
+    opacity: 90%;
+    font-size: 0.95rem;
+}
+
+
+
+
+
+
+.faq-section {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.faq-question {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.faq-question:hover {
+    background-color: #e9e9e9;
+}
+
+.faq-answer {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    background-color: #fff;
+}
+.faq-section-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
